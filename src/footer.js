@@ -14,8 +14,8 @@ const footerHTML = `
                     <li><a href="/index.html#gyms" class="hover:text-indigo-500 dark:hover:text-indigo-400 transition">Find a Gym</a></li>
                     <li><a href="/index.html#about" class="hover:text-indigo-500 dark:hover:text-indigo-400 transition">About Us</a></li>
                     <li><a href="/index.html#faq" class="hover:text-indigo-500 dark:hover:text-indigo-400 transition">FAQ</a></li>
-                    <li><a href="/add-gym.html" class="hover:text-indigo-500 dark:hover:text-indigo-400 transition">Add Your Gym</a></li>
-                    <li><a href="/privacy-policy.html" class="hover:text-indigo-500 dark:hover:text-indigo-400 transition">Privacy Policy</a></li>
+                    <li><a href="/add-gym" class="hover:text-indigo-500 dark:hover:text-indigo-400 transition">Add Your Gym</a></li>
+                    <li><a href="/privacy-policy" class="hover:text-indigo-500 dark:hover:text-indigo-400 transition">Privacy Policy</a></li>
                 </ul>
             </div>
             <!-- Social -->

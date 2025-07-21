@@ -2,7 +2,42 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "routes": [
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/$1" }
+    {
+      "src": "/add-gym",
+      "dest": "/add-gym.html"
+    },
+    {
+      "src": "/powerhouse-fitness",
+      "dest": "/powerhouse-fitness.html"
+    },
+    {
+      "src": "/iron-grit",
+      "dest": "/iron-grit.html"
+    },
+    {
+      "src": "/zenith-wellness",
+      "dest": "/zenith-wellness.html"
+    },
+    {
+      "src": "/the-anvil-gym",
+      "dest": "/the-anvil-gym.html"
+    },
+    {
+      "src": "/family-fit-center",
+      "dest": "/family-fit-center.html"
+    },
+    {
+      "src": "/the-apex-club",
+      "dest": "/the-apex-club.html"
+    },
+    {
+      "src": "/privacy-policy",
+      "dest": "/privacy-policy.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1",
+      "continue": true
+    }
   ]
 } 
